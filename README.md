@@ -1,3 +1,5 @@
+**Django useful Tips:**
+
 1. Open Vs Code > ctrl+shift+p > Python: Create Environment > Venv > Select recommended Interpreter > install libs from requirements.txt
 2. VS Code > Launch Django debugger
 
