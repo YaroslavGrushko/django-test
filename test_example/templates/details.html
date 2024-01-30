@@ -1,0 +1,9 @@
+{% extends "master.html" %} {% block title %} Django test - entity details
+{%endblock %} {% block content %}
+<h1>{{ field.nickname }} {{ field.country }}</h1>
+
+<p>Poet: {{ field.poet }}</p>
+<p>Person: {{ field.person }}</p>
+
+<p>Back to <a href="/test">All Fields</a></p>
+{% endblock %}

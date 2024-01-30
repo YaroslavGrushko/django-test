@@ -1,0 +1,15 @@
+{% extends "master.html" %}
+{% block title %}Django test - List of entities{% endblock %}
+{% block content %}
+  <p>
+    <a href="/">Home</a>
+  </p>
+  <h1>All Fields</h1>
+  <ul>
+    {% for x in fields %}
+      <li>
+        <a href="details/{{ x.id }}">{{ x.nickname }} {{ x.country }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
